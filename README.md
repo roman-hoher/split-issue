@@ -1,6 +1,6 @@
 # split-issue
 
-Gradle (Kotlin) project contains only single Java class - SlitIsue sampling identified issue. Demonstration focuses on Camel route definition containing split within which we also use validate. Once this split and validate combination appears in our definition, split must be ended with duplicated .end() call to properly define its end. The single end call will not have same effect as it would be expected.
+Gradle (Kotlin) project contains only single Java class - SplitIssue sampling identified issue. Demonstration focuses on Camel route definition containing split within which we also use validate. Once this split and validate combination appears in our definition, split must be ended with duplicated .end() call to properly define its end. The single end call will not have same effect as it would be expected.
 
 No other Camel methods like validate have been identified to have same issue in combination with split.
 
